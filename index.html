@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f7f0e4"><meta name="description" content="A little virtual island celebrating a love story.">
+  <title>Ever After Island | Wedding Invitation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="#home"><span>✦</span> EVER AFTER <i>ISLAND</i></a><div id="topDate">OUR WEDDING · NOVEMBER 26</div><button class="sound" id="soundToggle">♫ <span>Sound off</span></button></header>
+  <main>
+    <section class="hero" id="home"><div class="hero-copy"><p class="eyebrow">✧ &nbsp; A LITTLE WORLD MADE FOR LOVE &nbsp; ✧</p><h1>Our forever<br>starts <em>here.</em></h1><p class="intro">You are warmly invited to celebrate the beginning of our next chapter.</p><div class="names"><span id="nameOne">Nesti</span><i>&</i><span id="nameTwo">Your Name</span></div><p class="event-meta">26 NOVEMBER 2026&nbsp; · &nbsp;AKAD & RECEPTION</p><button class="primary" id="enterBtn">Explore our island <span>↗</span></button><p class="tiny">A little interactive invitation, made with love.</p></div>
+      <div class="art" aria-label="Illustrated virtual wedding island"><div class="halo"></div><div class="cloud c1"></div><div class="cloud c2"></div><div class="island"><div class="island-top"></div><div class="path p1"></div><div class="path p2"></div><div class="arch"><span>N + ?</span></div>
+        <button class="booth b1" data-booth="details"><b>⌂</b><small>THE DAY</small></button><button class="booth b2" data-booth="story"><b>♡</b><small>OUR STORY</small></button><button class="booth b3" data-booth="rsvp"><b>✉</b><small>RSVP</small></button><button class="booth b4" data-booth="guestbook"><b>✎</b><small>GUESTBOOK</small></button><button class="booth b5" data-booth="gift"><b>◇</b><small>GIFT</small></button>
+        <i class="tree t1"></i><i class="tree t2"></i><i class="tree t3"></i><i class="tree t4"></i><i class="flower f1">✿</i><i class="flower f2">✿</i><i class="flower f3">✿</i></div><div class="note n1">a day to remember</div><div class="note n2">✧ made with love ✧</div><div class="art-label">YOUR OWN LITTLE WEDDING WORLD</div></div>
+    </section>
+    <section class="explore" id="explore"><div class="section-head"><p class="eyebrow">TAKE A LITTLE LOOK AROUND</p><h2>Choose your <em>booth.</em></h2><p>Every little corner holds a piece of our celebration. Tap a booth to explore.</p></div><div class="cards">
+      <button class="card" data-booth="details"><span>⌂</span><small>01 / THE DAY</small><strong>Wedding Details</strong><i>Date, time & venue</i><b>↗</b></button>
+      <button class="card" data-booth="story"><span>♡</span><small>02 / OUR STORY</small><strong>Our Little Story</strong><i>A few chapters of us</i><b>↗</b></button>
+      <button class="card" data-booth="rsvp"><span>✉</span><small>03 / SAVE YOUR SEAT</small><strong>RSVP Booth</strong><i>Let us know you're coming</i><b>↗</b></button>
+      <button class="card" data-booth="guestbook"><span>✎</span><small>04 / LEAVE A NOTE</small><strong>Guestbook</strong><i>Send us your wishes</i><b>↗</b></button>
+      <button class="card" data-booth="gift"><span>◇</span><small>05 / A KIND THOUGHT</small><strong>Digital Gift</strong><i>For those who have asked</i><b>↗</b></button>
+    </div></section>
+    <section class="countdown"><p class="eyebrow">COUNTING DOWN TO OUR DAY</p><h2>Until we say <em>“I do.”</em></h2><div class="timer"><div><b id="days">--</b><span>DAYS</span></div><i>:</i><div><b id="hours">--</b><span>HOURS</span></div><i>:</i><div><b id="minutes">--</b><span>MINUTES</span></div><i>:</i><div><b id="seconds">--</b><span>SECONDS</span></div></div><p>26 November 2026 · We can't wait to celebrate with you.</p></section>
+    <section class="closing"><div class="closing-flower">✿</div><p class="eyebrow">WITH FULL HEARTS</p><h2>It wouldn't be the same<br>without <em>you.</em></h2><p>Thank you for being part of our story. We hope to see you there.</p><button class="primary" data-booth="rsvp">Save your seat <span>↗</span></button></section>
+  </main><footer><span>EVER AFTER ISLAND</span><span>MADE WITH LOVE, FOR OUR PEOPLE</span><span>© 2026</span></footer>
+  <div class="backdrop" id="backdrop" hidden><section class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><button class="close" id="close" aria-label="Close">×</button><p class="eyebrow" id="modalEyebrow">A LITTLE NOTE</p><h2 id="modalTitle">Welcome</h2><div id="modalContent"></div></section></div><div class="toast" id="toast" role="status"></div>
+  <script src="script.js"></script>
+</body></html>
